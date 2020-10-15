@@ -1,3 +1,4 @@
+#pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline, and is compatible with both Python 2 and 3
 import pyttsx3
 
 import speech_recognition as sr 
@@ -9,7 +10,7 @@ import wikipedia
 import webbrowser 
 
 import os
-
+# The smtplib module defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon
 import smtplib
 
  
@@ -17,13 +18,14 @@ import smtplib
 print("Initializing Charlotte")
 
  
-#Here I have taken voice of a female if You wish you can use male voice too.
+# Here Master refers to the User here I have used my name, here You can use yours. Just change the name.
 MASTER = "Anubhav"
 
 engine = pyttsx3.init('sapi5')
 
 voices = engine.getProperty('voices')
 
+#Here I have taken voice of a female if You wish you can use male voice too.
 # Here I have set the voices Id [1] as Female voice has the Id 1 and if You are using male voice you can set Voice Id To [0].
 engine.setProperty('voice', voices[1].id)
 
@@ -102,7 +104,7 @@ def takeCommand():
     return query
 
  
-
+# It will be better if you don't use email function as it can hamper the security of the email. If you want to try then create a dummy email.
 def sendEmail(to, content):
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -113,7 +115,7 @@ def sendEmail(to, content):
 
     server.login('sfhehofhgeopughjw@gmail.com','efgeugfwe')
 
-    server.sendmail("harry@codewithharry.com", to, content)
+    server.sendmail("abc@gmail.com", to, content)
 
     server.close()
 
