@@ -141,7 +141,7 @@ def sendEmail(to, content):
 def screenshot():
     img = pyautogui.screenshot()
     img.save(
-        "C:\\Users\\Jarvis-AI-using-python3-\\screenshots\\ss.png"
+        "C:\\Users\\Jarvis-using-python3-\\screenshots\\singh.jpg"
     )
 
 
@@ -192,7 +192,7 @@ def weather():
 
 def personal():
     speak(
-        "I am Jarvis, version 1.0, I am an AI assistent, I am developed by Anubhav Singh in INDIA"
+        "I am Jarvis, version 1.0, I am an assistent, I am developed by Anubhav Singh in INDIA"
     )
     speak("Now i hope you know me")
 
