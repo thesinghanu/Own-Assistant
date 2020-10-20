@@ -1,4 +1,4 @@
-#pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline, and is compatible with both Python 2 and 3
+#pyttsx3 is a text-to-speech conversion library in Python. Unlike alternative libraries, it works offline, and is compatible with both Python 2 and 3.
 import pyttsx3
 
 import speech_recognition as sr 
@@ -66,7 +66,7 @@ def wishMe():
        
 
     #speak("I am Charlotte. How may i help You?")
-
+    # The above function can be used if you want, but i personally didn't wanted to greet every time so i Commented it, if you want to use you are free to do so.
  
 
 # This function will take command from microphone
