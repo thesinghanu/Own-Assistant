@@ -75,7 +75,7 @@ def checktime(tt):
         speak("it's night sir!")
 
 
-#welcome function
+#welcome function, It will greet you.
 def wishme():
     speak("Welcome Back")
     hour = datetime.datetime.now().hour
@@ -126,7 +126,7 @@ def takeCommand():
 
     return query
 
-
+# Its better you not use your personal Email as it can cause some problems for security reasons. But if you want to use this Feature create a dummy email.
 #sending email function
 def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
