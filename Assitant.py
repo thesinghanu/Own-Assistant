@@ -17,7 +17,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 engine.setProperty('volume', 1)
 
-
+dffhjkl
 #change voice
 def voice_change(v):
     x = int(v)
