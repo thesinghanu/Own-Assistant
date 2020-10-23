@@ -25,7 +25,7 @@ def voice_change(v):
     speak("done sir")
 
 
-#speak function
+#speak function:
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
