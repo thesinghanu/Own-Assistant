@@ -277,7 +277,7 @@ if __name__ == "__main__":
             os.startfile(os.path.join(songs_dir, songs[1]))
             quit()
 
-#reminder function
+#Reminder function
 
         elif ("create a reminder list" in query or "reminder" in query):
             speak("What is the reminder?")
@@ -288,31 +288,31 @@ if __name__ == "__main__":
             reminder_file.write(data)
             reminder_file.close()
 
-#reading reminder list
+#Reading Reminder list
 
         elif ("do you know anything" in query or "remember" in query):
             reminder_file = open("data.txt", 'r')
             speak("You said me to remember that: " + reminder_file.read())
 
-#screenshot
+#Screenshot
         elif ("screenshot" in query):
             screenshot()
             speak("Done!")
 
-#cpu and battery usage
+#CPU and Battery usage
         elif ("cpu and battery" in query or "battery" in query
               or "cpu" in query):
             cpu()
 
-#jokes
+#Jokes
         elif ("tell me a joke" in query or "joke" in query):
             jokes()
 
-#weather
+#Weather
         elif ("weather" in query or "temperature" in query):
             weather()
 
-#jarvis features
+#Jarvis features
         elif ("tell me your powers" in query or "help" in query
               or "features" in query):
             features = ''' i can help to do lot many things like..
@@ -345,7 +345,7 @@ if __name__ == "__main__":
             else:
                 speak("what can i do for you")
 
-#changing voice
+#Changing voice
         elif ("voice" in query):
             speak("for female say female and, for male say male")
             q = takeCommand()
@@ -359,7 +359,7 @@ if __name__ == "__main__":
             elif ("male" in query):
                 voice_change(0)
 
-#exit function
+#Exit function
 
         elif ('i am done' in query or 'bye bye jarvis' in query
               or 'go offline jarvis' in query or 'bye' in query
