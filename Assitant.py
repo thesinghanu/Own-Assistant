@@ -28,6 +28,7 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
+    
 #time function
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
@@ -85,7 +86,7 @@ def wishme():
 
     speak("Jarvis at your service, Please tell me how can i help you?")
 
-
+# wish
 def wishme_end():
     speak("signing off")
     hour = datetime.datetime.now().hour
