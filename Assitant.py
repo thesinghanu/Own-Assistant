@@ -49,7 +49,7 @@ def checktime(tt):
     hour = datetime.datetime.now().hour
     if ("morning" in tt):
         if (hour >= 6 and hour < 12):
-            speak("Good morning sir")
+            speak("Good Morning sir")
         else:
             if (hour >= 12 and hour < 18):
                 speak("it's Good afternoon sir")
