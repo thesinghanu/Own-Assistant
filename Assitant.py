@@ -78,11 +78,11 @@ def wishme():
     if (hour >= 6 and hour < 12):
         speak("Good Morning sir!")
     elif (hour >= 12 and hour < 18):
-        speak("Good afternoon sir")
+        speak("Good Afternoon sir")
     elif (hour >= 18 and hour < 24):
         speak("Good Evening sir")
     else:
-        speak("Goodnight sir")
+        speak("Good Night Sir")
 
     speak("Jarvis at your service, Please tell me how can i help you?")
 
