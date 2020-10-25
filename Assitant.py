@@ -96,7 +96,7 @@ def wishme_end():
     elif (hour >= 18 and hour < 24):
         speak("Good Evening")
     else:
-        speak("Goodnight.. Sweet dreams")
+        speak("Goodnight... Sweet dreams")
     quit()
 
 #command by user function
