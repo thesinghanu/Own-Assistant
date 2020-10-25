@@ -4,7 +4,7 @@ import datetime  #module
 import speech_recognition as sr
 import wikipedia
 import smtplib
-import webbrowser as wb
+import webbrowser as wb #default
 import os  #inbuilt
 import pyautogui
 import psutil  #pip install psutil
