@@ -24,19 +24,16 @@ def voice_change(v):
     engine.setProperty('voice', voices[x].id)
     speak("done sir")
 
-
 #speak function:
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-
 
 #time function
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
     speak("The current time is")
     speak(Time)
-
 
 #date function
 def date():
@@ -47,7 +44,6 @@ def date():
     speak(date)
     speak(month)
     speak(year)
-
 
 def checktime(tt):
     hour = datetime.datetime.now().hour
@@ -103,7 +99,6 @@ def wishme_end():
     else:
         speak("Goodnight.. Sweet dreams")
     quit()
-
 
 #command by user function
 def takeCommand():
