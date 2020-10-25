@@ -29,7 +29,7 @@ def speak(audio):
     engine.runAndWait()
 
     
-#time function
+#Time function
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
     speak("The current Time is")
