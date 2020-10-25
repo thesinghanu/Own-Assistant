@@ -202,12 +202,12 @@ if __name__ == "__main__":
         if ('time' in query):
             time()
 
-#date
+#Date
 
         elif ('date' in query):
             date()
 
-#personal info
+#Personal info
         elif ("tell me about yourself" in query):
             personal()
         elif ("about you" in query):
@@ -223,7 +223,7 @@ if __name__ == "__main__":
             res = open("about.txt", 'r')
             speak("here is the details: " + res.read())
 
-#searching on wikipedia
+#Searching on Wikipedia
 
         elif ('wikipedia' in query or 'what' in query or 'who' in query
               or 'when' in query or 'where' in query):
@@ -240,7 +240,7 @@ if __name__ == "__main__":
             print(result)
             speak(result)
 
-#sending email
+#Sending E-mail
 
         elif ("send email" in query):
             try:
@@ -259,7 +259,7 @@ if __name__ == "__main__":
             search = takeCommand().lower()
             wb.get(chromepath).open_new_tab(search + '.com')
 
-#sysytem logout/ shut down etc
+#System logout/ shut down etc
 
         elif ("logout" in query):
             os.system("shutdown -1")
@@ -268,7 +268,7 @@ if __name__ == "__main__":
         elif ("shut down" in query):
             os.system("shutdown /r /t 1")
 
-#play songs
+#Play songs
 
         elif ("play songs" in query):
             speak("Playing...")
