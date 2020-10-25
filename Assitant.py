@@ -9,7 +9,7 @@ import os  #inbuilt
 import pyautogui
 import psutil  #pip install psutil
 import pyjokes  # pip install pyjokes
-import requests, json  #inbuilt
+import requests, json  #inbuilt feature
 
 engine = pyttsx3.init()
 engine.setProperty('rate', 190)
