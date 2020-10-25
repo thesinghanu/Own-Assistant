@@ -71,7 +71,7 @@ def checktime(tt):
         speak("it's night sir!")
 
 
-#welcome function, It will greet you.
+#Welcome function, It will greet you.
 def wishme():
     speak("Welcome Back")
     hour = datetime.datetime.now().hour
