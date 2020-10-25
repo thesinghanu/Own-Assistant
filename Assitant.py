@@ -80,7 +80,7 @@ def wishme():
     elif (hour >= 12 and hour < 18):
         speak("Good Afternoon sir")
     elif (hour >= 18 and hour < 24):
-        speak("Good Evening sir")
+        speak("Good Evening Sir")
     else:
         speak("Good Night Sir")
 
@@ -97,7 +97,7 @@ def wishme_end():
     elif (hour >= 18 and hour < 24):
         speak("Good Evening")
     else:
-        speak("Goodnight... Sweet dreams")
+        speak("Good Night... Sweet dreams")
     quit()
 
 #command by user function
