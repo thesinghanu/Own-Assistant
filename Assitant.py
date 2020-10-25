@@ -66,7 +66,7 @@ def checktime(tt):
             elif (hour >= 18 and hour < 24):
                 speak("it's Good Evening Sir")
             else:
-                speak("it's Goodnight sir")
+                speak("it's Good Night Sir")
     else:
         speak("it's night sir!")
 
