@@ -100,7 +100,7 @@ def wishme_end():
         speak("Good Night... Sweet dreams")
     quit()
 
-#command by user function
+#Command by user function
 def takeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -132,7 +132,7 @@ def sendEmail(to, content):
     server.close()
 
 
-#screenshot function
+#Screenshot function
 def screenshot():
     img = pyautogui.screenshot()
     img.save(
@@ -140,7 +140,7 @@ def screenshot():
     )
 
 
-#battery and cpu usage
+#Battery and CPU usage
 def cpu():
     usage = str(psutil.cpu_percent())
     speak('CPU usage is at ' + usage)
@@ -151,14 +151,14 @@ def cpu():
     print("battery is at:" + str(battery.percent))
 
 
-#joke function
+#Joke function
 def jokes():
     j = pyjokes.get_joke()
     print(j)
     speak(j)
 
 
-#weather condition
+#Weather condition
 def weather():
     api_key = "YOUR-API_KEY" #generate your own api key from open weather
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
