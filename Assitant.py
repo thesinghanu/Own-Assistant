@@ -32,7 +32,7 @@ def speak(audio):
 #time function
 def time():
     Time = datetime.datetime.now().strftime("%H:%M:%S")
-    speak("The current time is")
+    speak("The current Time is")
     speak(Time)
 
 #date function
